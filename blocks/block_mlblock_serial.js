@@ -18,7 +18,7 @@ Blockly.Blocks['mlblock_serial_get_data'] = {
   init: function() {
     this.appendDummyInput()
         .appendField("MLBlock get")
-        .appendField(new Blockly.FieldDropdown([["Class ID","classId"], ["label","label"], ["confidence","confidence"], ["x","X"], ["y","Y"], ["width","Width"], ["height","Height"], ["id","Session ID"]]), "field");
+         .appendField(new Blockly.FieldDropdown([["Class ID","classId"], ["label","label"], ["confidence","confidence"], ["x","x"], ["y","y"], ["width","width"], ["height","height"], ["id","id"]]), "field");
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("get data from mlblock");
